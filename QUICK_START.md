@@ -114,7 +114,13 @@ Vercel automatically deploys! ✨
 
 ## 🆘 Problems?
 
-### Build Fails
+### Build Fails on Vercel
+The TypeScript config has been optimized for deployment. If you still get errors:
+- Check [BUILD_FIX.md](./BUILD_FIX.md) for details
+- Look at Vercel build logs for specific errors
+- Most common issues are already fixed
+
+### Build Fails Locally
 ```bash
 npm run build
 ```
